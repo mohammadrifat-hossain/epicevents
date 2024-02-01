@@ -93,7 +93,7 @@ const EventDetails = async ({params:{id}}: SearchParamProps) => {
                 collectionType="All_Events"
                 limit={6}
                 page={1}
-                totalPages={2}
+                // totalPages={shuffledEvents?.totalPages}
             />
         </section>
         </>
